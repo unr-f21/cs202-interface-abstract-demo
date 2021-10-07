@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Car.cpp
+Car.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Car.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Car.h
+Vehicle.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Vehicle.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/IRunnable.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/ISinkable.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Vehicle.h
+string
+-
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/boat.h
+string
+-
+Vehicle.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Vehicle.h
+IRunnable.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/IRunnable.h
+ISinkable.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/ISinkable.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/main.cpp
+vector
+-
+boat.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/boat.h
+sailboat.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/sailboat.h
+IRunnable.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/IRunnable.h
+Vehicle.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Vehicle.h
+Car.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/Car.h
+
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/sailboat.h
+boat.h
+/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/boat.h
+
