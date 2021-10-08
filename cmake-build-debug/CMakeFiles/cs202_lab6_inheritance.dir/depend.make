@@ -23,12 +23,4 @@ CMakeFiles/cs202_lab6_inheritance.dir/main.cpp.o: \
  ../ISinkable.h \
  ../Vehicle.h \
  ../boat.h \
- ../main.cpp \
- ../sailboat.h
-CMakeFiles/cs202_lab6_inheritance.dir/sailboat.cpp.o: \
- ../IRunnable.h \
- ../ISinkable.h \
- ../Vehicle.h \
- ../boat.h \
- ../sailboat.cpp \
- ../sailboat.h
+ ../main.cpp

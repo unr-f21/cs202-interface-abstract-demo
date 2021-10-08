@@ -2,15 +2,21 @@
 // Created by Keith Lancaster on 10/7/21.
 //
 
-#ifndef CS202_LAB6_INHERITANCE_CAR_H
-#define CS202_LAB6_INHERITANCE_CAR_H
+#ifndef CS202_INTERFACES__CAR_H
+#define CS202_INTERFACES__CAR_H
 
 
 #include "Vehicle.h"
 
 class Car : public Vehicle {
+public:
+    void accelerate() override;
+
+    void run() override;
+
+    void stop() override;
 
 };
 
 
-#endif //CS202_LAB6_INHERITANCE_CAR_H
+#endif //CS202_INTERFACES__CAR_H

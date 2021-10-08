@@ -2,13 +2,15 @@
 // Created by Keith Lancaster on 10/7/21.
 //
 
-#ifndef CS202_LAB6_INHERITANCE_VEHICLE_H
-#define CS202_LAB6_INHERITANCE_VEHICLE_H
+#ifndef CS202_INTERFACES_VEHICLE_H
+#define CS202_INTERFACES_VEHICLE_H
 
 
 #include <string>
+#include "IRunnable.h"
+#include "ISinkable.h"
 
-class Vehicle {
+class Vehicle : public IRunnable{
 protected:
     std::string color;
     int age;
@@ -23,7 +25,9 @@ public:
 
     void setAge(int age);
 
+    virtual ~Vehicle();
+
 };
 
 
-#endif //CS202_LAB6_INHERITANCE_VEHICLE_H
+#endif //CS202_INTERFACES_VEHICLE_H

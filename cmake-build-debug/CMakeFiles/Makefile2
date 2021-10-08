@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "/Users/keithlancaster/Library/Mobile Documents/com~apple~Clo
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/cs202_lab6_inheritance.dir/all
+all: CMakeFiles/cs202_interfaces.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/cs202_lab6_inheritance.dir/clean
+clean: CMakeFiles/cs202_interfaces.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/cs202_lab6_inheritance.dir
+# Target rules for target CMakeFiles/cs202_interfaces.dir
 
 # All Build rule for target.
-CMakeFiles/cs202_lab6_inheritance.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target cs202_lab6_inheritance"
-.PHONY : CMakeFiles/cs202_lab6_inheritance.dir/all
+CMakeFiles/cs202_interfaces.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target cs202_interfaces"
+.PHONY : CMakeFiles/cs202_interfaces.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cs202_lab6_inheritance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/cmake-build-debug/CMakeFiles" 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cs202_lab6_inheritance.dir/all
+CMakeFiles/cs202_interfaces.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/cmake-build-debug/CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cs202_interfaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/keithlancaster/Library/Mobile Documents/com~apple~CloudDocs/UNR/CS202/lectures/abstract classes/code/cs202-abstract-interfaces-demo/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/cs202_lab6_inheritance.dir/rule
+.PHONY : CMakeFiles/cs202_interfaces.dir/rule
 
 # Convenience name for target.
-cs202_lab6_inheritance: CMakeFiles/cs202_lab6_inheritance.dir/rule
-.PHONY : cs202_lab6_inheritance
+cs202_interfaces: CMakeFiles/cs202_interfaces.dir/rule
+.PHONY : cs202_interfaces
 
 # clean rule for target.
-CMakeFiles/cs202_lab6_inheritance.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/clean
-.PHONY : CMakeFiles/cs202_lab6_inheritance.dir/clean
+CMakeFiles/cs202_interfaces.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/clean
+.PHONY : CMakeFiles/cs202_interfaces.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

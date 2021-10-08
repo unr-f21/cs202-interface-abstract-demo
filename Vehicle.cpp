@@ -20,3 +20,9 @@ void Vehicle::setAge(int age) {
     Vehicle::age = age;
 }
 
+Vehicle::~Vehicle() {
+
+}
+
+
+

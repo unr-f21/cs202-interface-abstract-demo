@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cs202_lab6_inheritance
+# Target rules for targets named cs202_interfaces
 
 # Build rule for target.
-cs202_lab6_inheritance: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cs202_lab6_inheritance
-.PHONY : cs202_lab6_inheritance
+cs202_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cs202_interfaces
+.PHONY : cs202_interfaces
 
 # fast build rule for target.
-cs202_lab6_inheritance/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/build
-.PHONY : cs202_lab6_inheritance/fast
+cs202_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/build
+.PHONY : cs202_interfaces/fast
 
 Car.o: Car.cpp.o
 .PHONY : Car.o
 
 # target to build an object file
 Car.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Car.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Car.cpp.o
 .PHONY : Car.cpp.o
 
 Car.i: Car.cpp.i
@@ -142,7 +142,7 @@ Car.i: Car.cpp.i
 
 # target to preprocess a source file
 Car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Car.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Car.cpp.i
 .PHONY : Car.cpp.i
 
 Car.s: Car.cpp.s
@@ -150,7 +150,7 @@ Car.s: Car.cpp.s
 
 # target to generate assembly for a file
 Car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Car.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Car.cpp.s
 .PHONY : Car.cpp.s
 
 IRunnable.o: IRunnable.cpp.o
@@ -158,7 +158,7 @@ IRunnable.o: IRunnable.cpp.o
 
 # target to build an object file
 IRunnable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/IRunnable.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/IRunnable.cpp.o
 .PHONY : IRunnable.cpp.o
 
 IRunnable.i: IRunnable.cpp.i
@@ -166,7 +166,7 @@ IRunnable.i: IRunnable.cpp.i
 
 # target to preprocess a source file
 IRunnable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/IRunnable.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/IRunnable.cpp.i
 .PHONY : IRunnable.cpp.i
 
 IRunnable.s: IRunnable.cpp.s
@@ -174,7 +174,7 @@ IRunnable.s: IRunnable.cpp.s
 
 # target to generate assembly for a file
 IRunnable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/IRunnable.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/IRunnable.cpp.s
 .PHONY : IRunnable.cpp.s
 
 Vehicle.o: Vehicle.cpp.o
@@ -182,7 +182,7 @@ Vehicle.o: Vehicle.cpp.o
 
 # target to build an object file
 Vehicle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Vehicle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Vehicle.cpp.o
 .PHONY : Vehicle.cpp.o
 
 Vehicle.i: Vehicle.cpp.i
@@ -190,7 +190,7 @@ Vehicle.i: Vehicle.cpp.i
 
 # target to preprocess a source file
 Vehicle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Vehicle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Vehicle.cpp.i
 .PHONY : Vehicle.cpp.i
 
 Vehicle.s: Vehicle.cpp.s
@@ -198,7 +198,7 @@ Vehicle.s: Vehicle.cpp.s
 
 # target to generate assembly for a file
 Vehicle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/Vehicle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/Vehicle.cpp.s
 .PHONY : Vehicle.cpp.s
 
 boat.o: boat.cpp.o
@@ -206,7 +206,7 @@ boat.o: boat.cpp.o
 
 # target to build an object file
 boat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/boat.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/boat.cpp.o
 .PHONY : boat.cpp.o
 
 boat.i: boat.cpp.i
@@ -214,7 +214,7 @@ boat.i: boat.cpp.i
 
 # target to preprocess a source file
 boat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/boat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/boat.cpp.i
 .PHONY : boat.cpp.i
 
 boat.s: boat.cpp.s
@@ -222,7 +222,7 @@ boat.s: boat.cpp.s
 
 # target to generate assembly for a file
 boat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/boat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/boat.cpp.s
 .PHONY : boat.cpp.s
 
 main.o: main.cpp.o
@@ -230,7 +230,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -246,32 +246,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_interfaces.dir/build.make CMakeFiles/cs202_interfaces.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-sailboat.o: sailboat.cpp.o
-.PHONY : sailboat.o
-
-# target to build an object file
-sailboat.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/sailboat.cpp.o
-.PHONY : sailboat.cpp.o
-
-sailboat.i: sailboat.cpp.i
-.PHONY : sailboat.i
-
-# target to preprocess a source file
-sailboat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/sailboat.cpp.i
-.PHONY : sailboat.cpp.i
-
-sailboat.s: sailboat.cpp.s
-.PHONY : sailboat.s
-
-# target to generate assembly for a file
-sailboat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cs202_lab6_inheritance.dir/build.make CMakeFiles/cs202_lab6_inheritance.dir/sailboat.cpp.s
-.PHONY : sailboat.cpp.s
 
 # Help Target
 help:
@@ -281,7 +257,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cs202_lab6_inheritance"
+	@echo "... cs202_interfaces"
 	@echo "... Car.o"
 	@echo "... Car.i"
 	@echo "... Car.s"
@@ -297,9 +273,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... sailboat.o"
-	@echo "... sailboat.i"
-	@echo "... sailboat.s"
 .PHONY : help
 
 

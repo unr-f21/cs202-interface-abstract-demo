@@ -50,5 +50,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cs202_lab6_inheritance.dir/DependInfo.cmake"
+  "CMakeFiles/cs202_interfaces.dir/DependInfo.cmake"
   )

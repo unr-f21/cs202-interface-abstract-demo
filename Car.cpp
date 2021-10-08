@@ -3,3 +3,15 @@
 //
 
 #include "Car.h"
+
+void Car::accelerate() {
+
+}
+
+void Car::run() {
+
+}
+
+void Car::stop() {
+
+}
